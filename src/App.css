@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap");
+
+.App {
+  text-align: center;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.App span {
+  font-family: "Zilla Slab Highlight", cursive;
+  font-size: 1.8rem;
+  color: mediumorchid;
+  margin: 5px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.high-score-table__container {
+}
+
+.player-score__container {
+  width: 90%;
+  border: greenyellow 8px solid;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.player-score_row {
+  border: 1px solid #444444;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.player-score__container p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0092bb;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+.player-score_row :first-child {
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #282c34;
+}
+
+.player-score_row :last-child {
+  color: maroon;
+}
