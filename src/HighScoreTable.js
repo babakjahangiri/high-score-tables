@@ -15,9 +15,11 @@ const HighScoreTable = (props) => {
   }
   return (
     <React.Fragment>
-      <button name="btn_order" onClick={changeOrder}>
-        {order === "ASC" ? "Ascending" : "Descending"}
-      </button>
+      <p>
+        <button name="btn_order" onClick={changeOrder}>
+          {order === "ASC" ? "Ascending" : "Descending"}
+        </button>
+      </p>
       <div>
         {allCountryScores
           .sort((a, b) => (a.name > b.name ? 1 : -1))
